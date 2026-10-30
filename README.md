@@ -2,14 +2,13 @@
 
 Pacchetti firmati dei moduli di Safe Dashboard. Si installano da **Home > + Aggiungi modulo** (da file) o da **Impostazioni > Moduli e Aggiornamenti** (da internet, con l'indirizzo di questo repository).
 
-Catalogo creato il `2026-10-30T19:25:34+00:00`. Ogni file è firmato: il server rifiuta quelli non firmati con una chiave autorizzata.
+Catalogo creato il `2026-10-30T19:35:54+00:00`. Ogni file è firmato: il server rifiuta quelli non firmati con una chiave autorizzata.
 
 | Modulo | Versione | Nucleo minimo | File | Dimensione |
 |---|---|---|---|---|
 | **Safe Dashboard (nucleo)** (`nucleo`) | 3.2.0 | 0.0.0 | `nucleo-3.2.0.zip` | 370 KB |
 | **Predisposizioni di posa** (`predisposizioni_posa`) | 1.3.1 | 3.0.0 | `predisposizioni_posa-1.3.1.zip` | 21 KB |
 | **Promemoria** (`promemoria`) | 1.0.0 | 3.0.0 | `promemoria-1.0.0.zip` | 3 KB |
-| **Gestione RMA** (`rma`) | 3.0.0 | 3.1.0 | `rma-3.0.0.zip` | 61 KB |
 | **Gestione RMA** (`rma`) | 3.1.0 | 3.2.0 | `rma-3.1.0.zip` | 61 KB |
 
 ## Dettagli
@@ -21,7 +20,7 @@ Aggiornamento del nucleo.
 - Identificativo: `nucleo` (nucleo)
 - Richiede il nucleo 0.0.0 o successivo
 - File: `nucleo-3.2.0.zip`
-- SHA-256: `3e0e22f2cf888d97e023a235558b5ccab0704d43a36bb7e33049bf56fe9da628`
+- SHA-256: `5b108d1fcdab311a3897792ef0334d10141a50f0a6b4f6d0ae8b097f61a9bd45`
 
 ### Predisposizioni di posa 1.3.1
 
@@ -30,7 +29,7 @@ Preparazione e invio delle email di predisposizioni di posa con registro degli i
 - Identificativo: `predisposizioni_posa` (modulo)
 - Richiede il nucleo 3.0.0 o successivo
 - File: `predisposizioni_posa-1.3.1.zip`
-- SHA-256: `a031262648d2188a7a3dfa4f2843afd0a39974ff3adf66718a2bdf9056df16b8`
+- SHA-256: `589e60b8a776c0b191e24dea1d233c9fcf00de026fea7b01d93730543e60af46`
 
 ### Promemoria 1.0.0
 
@@ -39,16 +38,7 @@ Modulo di esempio: un elenco di promemoria condiviso. Serve da modello per i nuo
 - Identificativo: `promemoria` (modulo)
 - Richiede il nucleo 3.0.0 o successivo
 - File: `promemoria-1.0.0.zip`
-- SHA-256: `894212a0d48d76737466bab419d4bbd4e858ee34f90323ca7434883622e18301`
-
-### Gestione RMA 3.0.0
-
-Prima versione come modulo: dati, interfaccia e API separati dal nucleo. Richiede il nucleo 3.1.0; i RMA gia presenti passano nel modulo al primo caricamento.
-
-- Identificativo: `rma` (modulo)
-- Richiede il nucleo 3.1.0 o successivo
-- File: `rma-3.0.0.zip`
-- SHA-256: `9fcd55f3ceb78241c326df197cb44d9cb65f13141d2f536fab17d231699a8999`
+- SHA-256: `bbf53c91768f8b05fd7757aca0f1d3cfffd005ddfd12b102fb5ee99258f514f8`
 
 ### Gestione RMA 3.1.0
 
@@ -57,7 +47,7 @@ Statistiche nel sottomenu di Resi. Richiede il nucleo 3.2.0.
 - Identificativo: `rma` (modulo)
 - Richiede il nucleo 3.2.0 o successivo
 - File: `rma-3.1.0.zip`
-- SHA-256: `62a68c38a9f63f7a62cf5d820a363e4850655ec8b58df3ff3c3d144d64506350`
+- SHA-256: `c98b2a1ef3c924515716dbe89c7112585a1ff4f2f6920b6cc9a7981189678c57`
 
 ## Come installare
 
