@@ -1,1 +1,9 @@
+Pacchetti firmati dei moduli, installabili da Home > "+ Aggiungi modulo".
 
+Qui devono stare i file .zip prodotti con  "Crea pacchetti dei moduli.bat"  (oppure
+python strumenti\crea_pacchetti.py --chiave chiave_privata.txt), per esempio  rma-3.0.0.zip  per Gestione RMA.
+
+- Si firmano con la chiave privata (chiave_privata.txt, mai nel repository); la chiave pubblica deve essere in
+  suite\chiavi_pubbliche.json. Un pacchetto firmato con un'altra chiave compare nell'elenco come "non valido".
+- Il server verifica la firma di ogni file qui presente prima di proporlo.
+- Dopo aver premuto "Aggiungi" serve il riavvio dell'applicazione: il modulo compare nel menu.
