@@ -2,53 +2,63 @@
 
 Pacchetti firmati dei moduli di Safe Dashboard. Si installano da **Home > + Aggiungi modulo** (da file) o da **Impostazioni > Moduli e Aggiornamenti** (da internet, con l'indirizzo di questo repository).
 
-Catalogo creato il `2026-10-31T17:28:59+00:00`. Ogni file è firmato: il server rifiuta quelli non firmati con una chiave autorizzata.
+Catalogo creato il `2026-11-03T13:03:11+00:00`. Ogni file è firmato: il server rifiuta quelli non firmati con una chiave autorizzata.
 
 | Modulo | Versione | Core minimo | File | Dimensione |
 |---|---|---|---|---|
-| **Safe Dashboard (core)** (`nucleo`) | 3.16.0 | 0.0.0 | `nucleo-3.16.0.zip` | 444 KB |
-| **Predisposizioni di posa** (`predisposizioni_posa`) | 2.5.1 | 3.15.0 | `predisposizioni_posa-2.5.1.zip` | 31 KB |
-| **Promemoria** (`promemoria`) | 2.3.1 | 3.15.0 | `promemoria-2.3.1.zip` | 12 KB |
-| **Gestione RMA** (`rma`) | 3.8.0 | 3.16.0 | `rma-3.8.0.zip` | 72 KB |
+| **Assistenza** (`assistenza`) | 1.8.0 | 3.21.0 | `assistenza-1.8.0.zip` | 56 KB |
+| **Safe Dashboard (core)** (`nucleo`) | 3.25.0 | 0.0.0 | `nucleo-3.25.0.zip` | 464 KB |
+| **Predisposizioni di posa** (`predisposizioni_posa`) | 2.7.1 | 3.15.0 | `predisposizioni_posa-2.7.1.zip` | 37 KB |
+| **Promemoria** (`promemoria`) | 2.5.1 | 3.15.0 | `promemoria-2.5.1.zip` | 13 KB |
+| **Gestione RMA** (`rma`) | 3.10.0 | 3.19.0 | `rma-3.10.0.zip` | 73 KB |
 | **Tools e documentazione** (`tools_documentazione`) | 1.2.0 | 3.5.0 | `tools_documentazione-1.2.0.zip` | 20 KB |
 
 ## Dettagli
 
-### Safe Dashboard (core) 3.16.0
+### Assistenza 1.8.0
+
+Legge la casella configurata in Impostazioni > Server di posta > Posta in arrivo (IMAP, solo lettura).
+
+- Identificativo: `assistenza` (modulo)
+- Richiede il core 3.21.0 o successivo
+- File: `assistenza-1.8.0.zip`
+- SHA-256: `2320a40c82f9ed3cb5d8c42353e6dbcbfb2d1e92ad172187b2e7019fc38dfffe`
+
+### Safe Dashboard (core) 3.25.0
 
 Aggiornamento del core.
 
 - Identificativo: `nucleo` (nucleo)
 - Richiede il core 0.0.0 o successivo
-- File: `nucleo-3.16.0.zip`
-- SHA-256: `e648c1c0fe7d19dc0b8334fb1c568d8a09ab835761fc18433f5c36848ae9a723`
+- File: `nucleo-3.25.0.zip`
+- SHA-256: `c34a9679ffb5ed77b376e54c0354aa2801e93dd0b9f1ee97730d94e91661cc98`
 
-### Predisposizioni di posa 2.5.1
+### Predisposizioni di posa 2.7.1
 
 Aspetto della email modificabile da Impostazioni > Modelli email (i testi restano in questo modulo). Richiede il core 3.15.0.
 
 - Identificativo: `predisposizioni_posa` (modulo)
 - Richiede il core 3.15.0 o successivo
-- File: `predisposizioni_posa-2.5.1.zip`
-- SHA-256: `e4f302d60f4fe215e2ed1364df5630085fcbbb9e532e9165ec385e99b81e7024`
+- File: `predisposizioni_posa-2.7.1.zip`
+- SHA-256: `6dd1b808b5d42eb91ed0797a206b2fc86176db2ca63ab1d286bc7b483b064e85`
 
-### Promemoria 2.3.1
+### Promemoria 2.5.1
 
 L'e-mail dei promemoria è un modello modificabile da Impostazioni > Modelli email. Richiede il core 3.15.0.
 
 - Identificativo: `promemoria` (modulo)
 - Richiede il core 3.15.0 o successivo
-- File: `promemoria-2.3.1.zip`
-- SHA-256: `0c82fae61c98f2a86b045827e1be47b6fb98f998fd6507b52f894c29c7aa5761`
+- File: `promemoria-2.5.1.zip`
+- SHA-256: `fd0a2d12fadce709d45c12a6d21ffa0c5ca0d10705dcf5104a90557419730328`
 
-### Gestione RMA 3.8.0
+### Gestione RMA 3.10.0
 
 Le email (scheda, stato al cliente, statistiche) sono modelli modificabili da Impostazioni > Modelli email. La verifica dell'integrità dello storico è in Impostazioni > Sicurezza. Richiede il core 3.16.0.
 
 - Identificativo: `rma` (modulo)
-- Richiede il core 3.16.0 o successivo
-- File: `rma-3.8.0.zip`
-- SHA-256: `796b98a584147ff7865ca019c36504ff33eab13a53f947b6325028458c20e08d`
+- Richiede il core 3.19.0 o successivo
+- File: `rma-3.10.0.zip`
+- SHA-256: `7b7265eb4a6fde778bb92494e96815f32dfd119ee6d8f3b60518ad520ddbac8e`
 
 ### Tools e documentazione 1.2.0
 
@@ -57,7 +67,7 @@ Due sezioni nel menu (Tools e Documentazione). Nuova guida a pagine in Markdown 
 - Identificativo: `tools_documentazione` (modulo)
 - Richiede il core 3.5.0 o successivo
 - File: `tools_documentazione-1.2.0.zip`
-- SHA-256: `51481ff9a7a1981801cf12e8838155ef19880f43d1598a1c6114766f258441ae`
+- SHA-256: `6d90c2b230815675cafa23b9e04f2ff1a968b82c82e712b172994e5ae04a33df`
 
 ## Come installare
 
